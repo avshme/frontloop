@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Loop 1 - Step 2</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <div class="container">
+    <nav class="transition">
+      <input type="radio" name="shoping" value="payment_method" id="pm1" checked="checked" />
+      <label for='pm1' class="menu-nav"></label>
+      <input type="radio" name="shoping" value="something1" id="pm2" />
+      <label for='pm2' class="menu-nav"></label>
+      <input type="radio" name="shoping" value="something2" id="pm3" />
+      <label for='pm3' class="menu-nav"></label>
+    </nav>
+    <h1 class="caption">Payment method</h1>
+    <div class="choice-next">
+      <div class="choice-method">
+        <img class="choice-method__logo" src="./img/visa.svg" alt="visa_logo">
+        <span>Visa</span>
+      </div>
+      <div class="choice-method choice-method--checked">
+        <img class="choice-method__logo" src="./img/mastercard.svg" alt="mastercard_logo">
+        <span>Mastercard</span>
+      </div>
+      <div class="choice-method">
+        <img class="choice-method__logo" src="./img/maestro.svg" alt="maestro_logo">
+        <span>Maestro</span>
+      </div>
+      <button class="next-button">Next step
+        <img class="next-button__arrow" src="./img/arrow.svg" alt="next_arrow">
+      </button>
+    </div>
+  </div>
+</body>
+
+</html>
